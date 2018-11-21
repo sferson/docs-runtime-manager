@@ -20,7 +20,7 @@ Your application can also store custom integration data as well, within the limi
 
 * Object stores are handled in the way described in this document only for applications deployed to CloudHub workers. For applications that you deploy via the Runtime Manager to local servers, you must handle the storage of data in your own repository. See xref:deployment-strategies.adoc[Deployment Strategies] for more details.
 
-* All data in an object store is handled by servers in the *US-East zone*, regardless of what zone your application is deployed to. This may impact performance.
+* In version 1 of the Object Store, all data in an object store is handled by servers in the *US-East zone*, regardless of what zone your application is deployed to. This may impact performance.  In Object Store v2 the data is handled by servers in the region the application is deployed to.
 
 
 == Storing and Retrieving Data
